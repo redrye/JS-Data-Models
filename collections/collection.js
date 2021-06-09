@@ -1,0 +1,5 @@
+class Collection {
+  construct(models = []) {
+
+  }
+}
