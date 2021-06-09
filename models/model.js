@@ -7,8 +7,8 @@ class Model {
   construct(attr) {
     $.extend(this.attributes, attr);
   }
-  
-  toJSON() {
+
+  toJson() {
     return JSON.parse(this);
   }
 }
